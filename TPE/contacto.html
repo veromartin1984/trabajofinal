@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="contenedorformulario">
+        <div class="contacto">
+            <h2>Contacto o formulario de inscripción</h2>
+            <img src="../TPE/imagenes/logo.png" alt="logo">
+        </div>
+        
+        <div>
+            <p>Para clases presenciales llena el siguiente formulario, indicando dias y horarios disponibles.</p>
+            <form action="Formulario" method="post" onsubmit="return validar ();"> 
+                <ul>
+                    <li>
+                        <label for="Nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="user_name" >
+                    </li>
+                    <li>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="user_surname" >
+                    </li>
+                    <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="texto" name="user_email" id="email" > 
+                    </li>
+                    <li>
+                        <label for="telefono">Telefono:</label>
+                        <input type="telefono" name="user_telefono" id="telefono">
+                    </li>
+                    <li>
+                        <label for="msg">Mensaje:</label>
+                        <textarea id="msg"  name="user_message"></textarea>
+                    </li>
+                </ul>
+                <div class="enviar">
+                    <section>
+                    <p> <button id="btn-enviar" type="submit">Enviar Formulario</button> </p>
+                </section>
+                </div>
+                <script src="js\contacto.js"></script>
+            </form>
+        </div> 
+    <div id="carrito">
+            <ul id="lista">
+                
+            </ul>
+            <h2 id="totalText">Inversión: $ </h2>
+            
+    
+    </div>
+              
+</div>   
+
+<script src=js\main.js></script>   
+    <footer>  
+        <ul id="barra">
+            <a href="../TPE/index.html"><li>Inicio</li></a>
+            <a href="../TPE/acercademi.html"><li>Acerca de mi</li></a>
+            <a href="../TPE/porqueyoga.html"><li>¿Por qué yoga?</li></a>
+            <a href="../TPE/losochopasos.html"><li>Los ocho pasos</li></a>
+            <a href="../TPE/algunassecuencias.html"><li>Algunas secuencias</li></a>
+            <a href="../TPE/guiadeasanas.html"><li>Guía de asanas</li></a>                        
+        </ul>
+
+       
+
+    
+</footer>
+    
+</body>
+</html>
